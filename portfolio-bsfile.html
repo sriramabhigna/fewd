@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sriram Abhigna - Portfolio</title>
+    <!-- Link to the downloaded Bootstrap CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sriram Abhigna</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#objective">Objective</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="container text-center mt-4">
+        <h1 class="display-4">Sriram Abhigna</h1>
+        <p>📍 Hyderabad, India | 📧 <a href="mailto:sriramabhigna@gmail.com">sriramabhigna@gmail.com</a> | 📞 8019695263</p>
+        <p>
+            🔗 <a href="https://leetcode.com/u/sriramabhigna/">LeetCode</a> | 
+            <a href="https://linkedin.com/in/sriram-abhigna-4a7683293">LinkedIn</a> | 
+            <a href="https://github.com/sriramabhigna">GitHub</a>
+        </p>
+    </header>
+
+    <!-- Objective Section -->
+    <section class="container mt-4" id="objective">
+        <h2>Objective</h2>
+        <p>Motivated third-year B.Tech Computer Science student with expertise in Java and web development. 
+        Seeking an internship to contribute to innovative projects.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="container mt-4" id="education">
+        <h2>Education</h2>
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Institution</th>
+                    <th>Degree</th>
+                    <th>Year</th>
+                    <th>Percentage/CGPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Keshav Memorial Institute of Technology</td>
+                    <td>B.Tech in Computer Science</td>
+                    <td>2022 – Present</td>
+                    <td>CGPA: 9.0</td>
+                </tr>
+                <tr>
+                    <td>Sri Chaitanya Junior College</td>
+                    <td>Higher Secondary (12th)</td>
+                    <td>2022</td>
+                    <td>99%</td>
+                </tr>
+                <tr>
+                    <td>Divyanjali High School</td>
+                    <td>High School (10th)</td>
+                    <td>2020</td>
+                    <td>100%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container mt-4" id="projects">
+        <h2>Projects</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><strong>Ending Hunger Platform:</strong> Web-based platform connecting donors & volunteers. <br> <b>Tech:</b> HTML, CSS, JavaScript, PHP, MySQL <a href="#">GitHub Repo</a></li>
+            <li class="list-group-item"><strong>Weather Dashboard Application:</strong> Real-time weather app using OpenWeatherMap API. <br> <b>Tech:</b> JavaScript, HTML, CSS <a href="#">GitHub Repo</a></li>
+            <li class="list-group-item"><strong>YouTube Data Scraping Project:</strong> Scraped top 500 YouTube videos. <br> <b>Tech:</b> Python, Google API, Pandas <a href="#">GitHub Repo</a></li>
+        </ul>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section class="container mt-4" id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><b>Programming Languages:</b> Java, Python</li>
+            <li><b>Web Technologies:</b> HTML, CSS, JavaScript, Bootstrap</li>
+            <li><b>Databases:</b> MySQL, MongoDB</li>
+            <li><b>Frameworks:</b> Express.js (Basics), Node.js</li>
+        </ul>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="container mt-4" id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Java Programming - Coursera</li>
+            <li>Full-Stack Web Development - Udemy</li>
+            <li>Database Management Systems - NPTEL</li>
+        </ul>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="container mt-4" id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>LeetCode 500+ Problems Solved</li>
+            <li>9.0 CGPA in B.Tech (Top Performer in Class)</li>
+            <li>99% in 12th Grade</li>
+        </ul>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="container mt-4" id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white py-3 mt-4">
+        © 2025 Sriram Abhigna | Designed with Bootstrap
+    </footer>
+
+    <!-- Link to the downloaded Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
